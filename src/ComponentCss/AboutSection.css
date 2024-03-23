@@ -1,0 +1,15 @@
+.AboutWrapper {
+    padding: 6rem 4rem;
+    background-color: #16192E;
+}
+
+.AboutHeadline h2 {
+    font-size: 1.8vw;
+}
+
+.AboutHeadline div {
+    height: 5.5px;
+    background-color: #FF204E;
+    width: 100%;
+    border-radius: 4px;
+}

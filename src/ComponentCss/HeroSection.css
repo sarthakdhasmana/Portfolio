@@ -1,0 +1,161 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header,
+.HeroSectionContent {
+    padding: 3rem 4rem;
+}
+
+#background-video {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.HeroSectionContent {
+    padding: 6rem 4rem 7rem 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.HeroRightContent {
+    width: 30%;
+}
+
+.MoveDown {
+    border: 2px solid #ffff;
+    border-radius: 12rem;
+    width: 4rem;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+
+.HeroLeftContent {
+    width: 60%;
+}
+
+.NavbarLogo {
+    width: 30%;
+}
+
+.NavbarLogo img {
+    max-width: 100%;
+}
+
+.NavLinks {
+    display: flex;
+    width: 32vw;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Links {
+    list-style-type: none;
+    letter-spacing: 3px;
+    font-size: 1.07vw;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.NavbarLinks {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+
+.HeroTitle {
+    font-size: 90px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 3px;
+}
+
+.highlight {
+    color: #FF204E;
+}
+
+.TypewriteText {
+    font-size: 90px;
+    font-family: "Dela Gothic One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.Whitebar {
+    background-color: #ffffff;
+    height: 10px;
+    width: 17rem;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.HeroTitleInfo {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.HeroTitleInfo {
+    margin-top: 40px;
+}
+
+.socialProfileLinks span {
+    background-color: #FF204E;
+    width: 3px;
+}
+
+.socialProfileLinks {
+    width: 25rem;
+    justify-content: space-between;
+}
+
+.socialProfileLinks,
+.SocialLink {
+    display: flex;
+}
+
+.HeroSection_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 4rem 4rem 4rem;
+}
+
+.SocialLink p {
+    display: flex;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+.followTitle {
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+
+.SocialLink img {
+    margin-right: 10px;
+}
